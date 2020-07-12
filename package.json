@@ -10,7 +10,8 @@
     "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-typescript": "^1.4.10"
+    "gatsby-plugin-typescript": "^1.4.10",
+    "styled-components": "^5.1.1"
   },
   "keywords": [
     "gatsby, typescript"
@@ -29,5 +30,10 @@
   "contributors": [
     "fabien0102 <fabien0102@gmail.com>",
     "Hays Clark <hays.clark@gmail.com>"
-  ]
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
+  }
 }
